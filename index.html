@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home page</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20PX 100px;
+      padding: 0px;
+ background-color:black;
+    }
+
+    .container {
+      width: 100%;
+     border-radius:20px;
+      
+      padding: 20px;
+      
+        position: relative;
+      vertical-align: top;
+      box-sizing: border-box;
+    }
+.container:nth-child(1) {
+      background-color:#2b2d30;
+      margin:40px 0;
+    }
+    .container:nth-child(2) {
+      
+     background-image: linear-gradient(to bottom,#ff3355, #2b45d9);
+    border-radius: 20px 20px 0 0;
+    border-bottom: 20px solid #ff3355;
+      
+    }
+
+    .container:nth-child(3) {
+border-radius:0;
+      background-color: #730d32;
+      color:white;
+      display : flex;
+      justify-content:space-between;
+      border-top:2px solid white;
+
+    }
+a{
+text-decoration:none;
+color:white;
+opacity: 0.5;
+}
+  .bottom-text {
+      background-color:#ed2b72;
+      margin:0 10%;
+      border-radius:10px;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      text-align: center; 
+      color: white;
+      
+    }
+.img{
+  height :100px;
+}.benifits{
+display:flex;
+padding:0 10%;
+justify-content:space-between;
+}
+.icon{
+  word-wrap: break-word;
+ height:200px;
+ width:20%;
+background-color:white;
+}
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 align="center"><span style="color: red;">1</span>
+    <span style="color: blue;">CODE</span>
+    <span style="color: green;">3</span>
+    <span style="color: orange;">BENIFITS</span></h2>
+ <div class="benifits">
+   <div class="icon"><h4 align="center">Benifit1</h4></div>
+   <div class="icon"><h4 align="center">Benifit2</h4></div>
+   <div class="icon"><h4 align="center">Benifit3</h4></div>
+</div>
+    
+  </div>
+
+  <div class="container">
+    <h2 style="color:white;"align="center">TESTIMONIALS</h2>
+  <h3 style="color:white;"align="center">Seek advice from those who have experiened it firsthand</h3>
+   <div class="benifits">
+   <div class="icon"><h4 align="center">Profile1</h4></div>
+   <div class="icon"><h4 align="center">Profile2</h4></div>
+   <div class="icon"><h4 align="center">Profile3</h4></div>
+</div>
+     <div class="img"></div>
+    <div class="bottom-text">
+<h2>WISH TO BE A GUIDE AT STORECODE ?
+   <button class="styled">Register</button></h2>
+</div>
+  
+  </div>
+
+  <div class="container">
+    
+    <div class="a"> 
+    <h3>Product</h3>
+    <a href="#">Register</a><br>
+    <a href="#">Login</a><br>
+    <a href="#">Dashboard</a><br>
+    </div>
+    <div class="a">
+    <h3>Info</h3>
+    <a href="#">FAQ</a><br>
+    <a href="#">Blog</a><br>
+    <a href="#">Support</a><br>
+    </div>
+    <div class="a">
+    <h3>Company</h3>
+    <a href="#">About us</a><br>
+    <a href="#">Careers</a><br>
+    <a href="#">Contact us</a><br>
+    </div>
+  </div>
+
+</body>
+</html>
